@@ -3,7 +3,7 @@ const swaggerJsdoc = require('swagger-jsdoc');
 const options = {
   swaggerDefinition: {
     info: {
-      title: 'Your API Title',
+      title: 'API Dócs for Cosmetic Web Application',
       version: '1.0.0',
       description: 'Your API Description',
     },
