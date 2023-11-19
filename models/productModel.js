@@ -41,10 +41,6 @@ var productSchema = new mongoose.Schema({
     images: {
         type:Array,
     },
-    color:{
-        type:String,
-        required: true,
-    },
     ratings:[{
         star:Number,
         postedby:{type:mongoose.Schema.Types.ObjectId, ref:"User"},
